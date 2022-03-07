@@ -1,6 +1,6 @@
 # FreeCodeCamp
 
-This repo contains notes, exercises and projects from the following [FreeCodeCamp](www.freecodecamp.org) courses:
+This repo contains notes, exercises and projects from the following [FreeCodeCamp](https://www.freecodecamp.org) courses:
 
 - [Responsive Web design](https://www.freecodecamp.org/learn/responsive-web-design/)
 - [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
