@@ -1,0 +1,100 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+  ============================
+  Side Nav
+  ============================
+*/
+
+nav {
+  width: fit-content;
+  border-right: 3px solid gray;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+nav header {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li a {
+  list-style: none;
+  color: gray;
+  text-decoration: none;
+}
+
+nav li {
+  padding: 1rem 2rem;
+  border-top: 2px solid black;
+}
+
+/* 
+  ============================
+  Main section
+  ============================
+ */
+
+#main-doc {
+  height: fit-content;
+  margin-left: 340px;
+  padding: 2rem;
+}
+
+.main-section header {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.text {
+  padding: 0 1rem;
+  color: rgb(121, 120, 120)
+}
+
+.text p {
+  padding: .5rem 0;
+}
+
+.text ul{
+  padding: 1rem 2rem;
+}
+
+.text li {
+  padding: .4rem 0;
+}
+
+.code-snippet {
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  background-color: rgb(221, 224, 226);
+}
+
+.code-snippet p {
+  font-family: monospace;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    width: fit-content;
+    position: static;
+    height: fit-content;
+    border: none;
+  }
+  #main-doc {
+    width: fit-content;
+    margin: 0;
+    margin-left: 0;
+  }
+}
